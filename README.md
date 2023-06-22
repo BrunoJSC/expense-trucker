@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Expense Trucker
 
-## Getting Started
+Este é um repositório contendo o projeto Expense Trucker, um aplicativo web de rastreamento de despesas desenvolvido com Next.js 13 e Firebase.
 
-First, run the development server:
+## Descrição
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+O Expense Trucker é um aplicativo web que permite que os usuários acompanhem e gerenciem suas despesas pessoais. Com ele, os usuários podem adicionar suas despesas, e ver o total de gastos
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O aplicativo utiliza o framework Next.js na versão 13 para desenvolvimento web e integração com o Firebase para armazenamento. Ele oferece uma experiência de usuário responsiva e interativa, com recursos como adicionar e excluir despesas.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Este repositório contém o código-fonte completo do aplicativo Expense Trucker, incluindo todos os arquivos e dependências necessários para sua execução.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Funcionalidades
 
-## Learn More
+O aplicativo Expense Trucker possui as seguintes funcionalidades principais:
 
-To learn more about Next.js, take a look at the following resources:
+- Adição e exclusão de despesas.
+- Valor total das dispesas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Requisitos de instalação
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para executar o aplicativo Expense Trucker, é necessário ter os seguintes requisitos:
 
-## Deploy on Vercel
+- Node.js
+- Firebase SDK
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Como executar o aplicativo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Siga as etapas abaixo para executar o aplicativo Expense Trucker em seu ambiente local:
+
+1. Certifique-se de ter o Node.js instalado em sua máquina.
+2. Faça o download ou clone este repositório em seu ambiente local.
+3. Abra o terminal ou prompt de comando e navegue até o diretório do projeto.
+4. Execute o seguinte comando para instalar as dependências necessárias:
+   ```
+   npm install
+   ```
+5. Configure sua conta Firebase e adicione as credenciais no arquivo de configuração.
+6. Execute o seguinte comando para iniciar o aplicativo:
+   ```
+   npm run dev
+   ```
+7. O aplicativo Expense Trucker será executado localmente em seu navegador.
+8. Explore as funcionalidades do Expense Trucker e gerencie suas despesas pessoais.
+
+## Contribuição
+
+Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma _issue_ ou enviar um _pull request_. Farei o possível para revisar e incorporar as contribuições.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE). Sinta-se à vontade para utilizar, modificar e distribuir o código conforme necessário.
+
+## Agradecimentos
+
+Este projeto foi desenvolvido com base em tutoriais e recursos online. Agradeço a todos os desenvolvedores e contribuidores da comunidade que compartilharam seu conhecimento e tornaram este projeto possível.
